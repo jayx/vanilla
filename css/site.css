@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+/* The variables ---------- */
+:root{
+  --colour-border: #dadada;
+  --colour-text: #333;
+  --colour-text-light: #999;
+  --small: 4px;
+  --medium: 8px;
+  --large: 16px;
+  --xlarge: 32px;
+}
+/* Some HTML parts ---------- */
+body{
+  color: var(--colour-text);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+  text-align: center;
+}
+hr{
+  border-color: transparent transparent var(--colour-border);
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+a{
+  color: var(--colour-text-light);
+}
+/* Some other parts ---------- */
+/* The site building blocks */
+.site__content{
+  margin: 0 auto;
+  max-width: 1440px;
+}
+/* Some utilities ---------- */
+/* Blocks */
+.blocked{display: block}
+/* Texts */
+.text--caps{text-transform: uppercase;}
+/*  */
+.flow--horizontal{
+  display: flex;
+  flex-direction: row;
+}
+.flow--centered{
+  justify-content: center;
+}
+.list--silent{
+  list-style: none;
+}
+/* Space */
+.padded--large{
+  padding: var(--large);
+}
