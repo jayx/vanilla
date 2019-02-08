@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Basic form with HTML element reset</title>
+<link rel="stylesheet" href="css/site.css">
+<!-- <link rel="stylesheet" href="css/reset-html.css"> -->
+<!-- <script src="script.js"></script> -->
+</head>
+<body>
+  <header class="site__header">
+    <h1>vanilla - the way you like your forms</h1>
+    <p>Basic styling for your forms by including vanilla&trade; in your stylesheet - you choose how you roll: plain old HTML or a touch of class (for those bad specificity days).</p>
+    <br>
+    <hr>
+  </header>
+  <main class="site__main">
+    <nav>
+      <ul class="list--silent list--nav flow--horizontal flow--centered">
+        <li><a href="form-html.html" class="blocked padded--large text--caps">Plain HTML</a></li>
+        <li><a href="#" class="blocked padded--large text--caps">Reset</a></li>
+        <li><a href="#" class="blocked padded--large text--caps">Classy</a></li>
+      </ul>
+    </nav>
+    <hr>
+    <nav>
+      <ul class="list--silent list--nav flow--horizontal flow--centered">
+        <li><a href="#field-input" class="">Form input</a></li>
+      </ul>
+    </nav>
+    <hr>
+    <article class="site__content">
+      <form action="">
+        <p>Our basic <code>&lt;form&gt;</code> element - block level by default and nothing to reset.</p>
+        <h2>Form input fields</h2>
+        <fieldset>
+          <legend>input</legend>
+          <label for="input-plain">Label for input</label>
+          <input name="input-plain" id="input-plain">
+        </fieldset>
+        <pre>
+          <code>&lt;input&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type text</legend>
+          <label for="input-text">Label for input type text</label>
+          <input type="text" name="input-text" id="input-text">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="text"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type password</legend>
+          <label for="input-password">Label for input type password</label>
+          <input type="password" name="input-password" id="input-password">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="password"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type number</legend>
+          <label for="input-number">Label for input type number</label>
+          <input type="number" name="input-number" id="input-number">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="number"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type email</legend>
+          <label for="input-email">Label for input type email</label>
+          <input type="email" name="input-email" id="input-email">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="email"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type tel</legend>
+          <label for="input-tel">Label for input type tel</label>
+          <input type="tel" name="input-tel" id="input-tel">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="tel"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type url</legend>
+          <label for="input-url">Label for input type url</label>
+          <input type="url" name="input-url" id="input-url">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="url"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type date</legend>
+          <label for="input-date">Label for input type date</label>
+          <input type="date" name="input-date" id="input-date">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="date"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type datetime-local</legend>
+          <label for="input-datetime-local">Label for input type datetime-local</label>
+          <input type="datetime-local" name="input-datetime-local" id="input-datetime-local">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="datetime-local"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type month</legend>
+          <label for="input-month">Label for input type month</label>
+          <input type="month" name="input-month" id="input-month">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="month"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type week</legend>
+          <label for="input-week">Label for input type week</label>
+          <input type="week" name="input-week" id="input-week">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="week"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type time</legend>
+          <label for="input-time">Label for input type time</label>
+          <input type="time" name="input-time" id="input-time">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="time"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type checkbox</legend>
+          <label for="input-checkbox">Label for input type checkbox</label>
+          <input type="checkbox" name="input-checkbox" id="input-checkbox">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="checkbox"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type radio</legend>
+          <label for="input-radio">Label for input type radio</label>
+          <input type="radio" name="input-radio" id="input-radio">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="radio"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type color</legend>
+          <label for="input-color">Label for input type color</label>
+          <input type="color" name="input-color" id="input-color">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="color"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type file</legend>
+          <label for="input-file">Label for input type file</label>
+          <input type="file" name="input-file" id="input-file">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="file"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type range</legend>
+          <label for="input-range">Label for input type range</label>
+          <input type="range" name="input-range" id="input-range">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="range"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type search</legend>
+          <label for="input-search">Label for input type search</label>
+          <input type="search" name="input-search" id="input-search">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="search"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type submit</legend>
+          <label for="input-submit">Label for input type submit</label>
+          <input type="submit" name="input-submit" id="input-submit">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="submit"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type button</legend>
+          <label for="input-button">Label for input type button</label>
+          <input type="button" name="input-button" id="input-button" value="Button">
+          <input type="button" name="input-button" id="input-button" value="Disabled Button" disabled>
+        </fieldset>
+        <pre>
+          <code>
+            &lt;input type="button" value="Button"&gt;
+            &lt;input type="button" value="Disabled Button" disabled&gt;
+          </code>
+        </pre>
+        <fieldset>
+          <legend>input type image</legend>
+          <label for="input-image">Label for input type image</label>
+          <input type="image" name="input-image" id="input-image" src="img/press-me.png">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="image" src="img/press-me.png"&gt;</code>
+        </pre>
+        <fieldset>
+          <legend>input type reset</legend>
+          <label for="input-reset">Label for input type reset</label>
+          <input type="reset" name="input-reset" id="input-reset">
+        </fieldset>
+        <pre>
+          <code>&lt;input type="reset"&gt;</code>
+        </pre>
+      </form>
+    </article>
+  </main>
+  <footer class="site__footer">
+  </footer>
+</body>
+</html>
