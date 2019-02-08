@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
 /* The variables ---------- */
 :root{
+  --colour-background-light: #efefef;
   --colour-border: #dadada;
   --colour-text: #333;
   --colour-text-light: #999;
@@ -47,7 +48,23 @@ a{
 .list--silent{
   list-style: none;
 }
+.list--nav{
+  padding: 0;
+}
 /* Space */
 .padded--large{
   padding: var(--large);
+}
+/* Highlighting code blocks */
+code,
+pre{
+  background: var(--colour-background-light);
+}
+pre{
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: var(--large);
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* white-space: pre-wrap; */
 }
