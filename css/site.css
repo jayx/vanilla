@@ -52,6 +52,9 @@ a{
   padding: 0;
 }
 /* Space */
+.padded--small{
+  padding: var(--small);
+}
 .padded--large{
   padding: var(--large);
 }
